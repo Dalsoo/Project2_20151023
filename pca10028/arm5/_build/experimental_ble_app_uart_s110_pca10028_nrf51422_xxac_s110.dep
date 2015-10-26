@@ -1,0 +1,1077 @@
+Dependencies for Project 'experimental_ble_app_uart_s110_pca10028', Target 'nrf51422_xxac_s110': (DO NOT MODIFY !)
+F (..\..\ble_nus.c)(0x55B75146)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\ble_nus.o --omf_browse .\_build\ble_nus.crf --depend .\_build\ble_nus.d)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\ble_nus.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_ranges.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_types.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_l2cap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_err.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatt.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gattc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatts.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common\ble_srv_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC\simple_uart.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (..\..\user_App\inc\sys_uart.h)(0x55220AE8)
+F (..\..\main.c)(0x55B7576C)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
+I (..\..\user_App\inc\sys_main.h)(0x5625D0A1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_types.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_ranges.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_hci.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_advdata.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_l2cap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_err.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatt.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gattc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatts.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_conn_params.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common\ble_srv_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\softdevice_handler.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_sdm.h)(0x5434D7C6)
+I (..\..\user_App\inc\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_sdm.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ble_stack_handler_types.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ant_stack_handler_types.h)(0x54B702A2)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_timer.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_button.h)(0x00000000)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpio.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\ble_nus.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC\simple_uart.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util_platform.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\bsp.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\boards.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\pca10001.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_delay.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpiote.h)(0x54B702A0)
+I (..\..\user_App\inc\sys_uart.h)(0x55220AE8)
+I (..\..\user_App\inc\sys_i2c_driver.h)(0x5549B190)
+I (..\..\user_App\inc\sys_initialize.h)(0x553EF892)
+I (..\..\user_App\inc\sys_ble_process.h)(0x55939A76)
+I (..\..\user_App\inc\sys_delay.h)(0x551E9590)
+I (..\..\user_App\inc\sys_TempHumiPress.h)(0x557698C2)
+I (..\..\user_App\inc\sys_Gas_Battery.h)(0x559359EE)
+I (..\..\user_App\inc\sys_iAQ_sensor.h)(0x55559768)
+I (..\..\user_App\inc\sys_dust_sensor.h)(0x561B5117)
+F (..\..\Abstract.txt)(0x54B70358)()
+F (..\..\license.txt)(0x54B70358)()
+F (..\..\user_App\src\sys_i2c_driver.c)(0x55B74ECA)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\sys_i2c_driver.o --omf_browse .\_build\sys_i2c_driver.crf --depend .\_build\sys_i2c_driver.d)
+I (..\..\user_App\inc\sys_main.h)(0x5625D0A1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_types.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_ranges.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_hci.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_advdata.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_l2cap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_err.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatt.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gattc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatts.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_conn_params.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common\ble_srv_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\softdevice_handler.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_sdm.h)(0x5434D7C6)
+I (..\..\user_App\inc\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_sdm.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ble_stack_handler_types.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ant_stack_handler_types.h)(0x54B702A2)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_timer.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_button.h)(0x00000000)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpio.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\ble_nus.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC\simple_uart.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util_platform.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\bsp.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\boards.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\pca10001.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_delay.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpiote.h)(0x54B702A0)
+I (..\..\user_App\inc\sys_uart.h)(0x55220AE8)
+I (..\..\user_App\inc\sys_i2c_driver.h)(0x5549B190)
+I (..\..\user_App\inc\sys_initialize.h)(0x553EF892)
+I (..\..\user_App\inc\sys_ble_process.h)(0x55939A76)
+I (..\..\user_App\inc\sys_delay.h)(0x551E9590)
+I (..\..\user_App\inc\sys_TempHumiPress.h)(0x557698C2)
+I (..\..\user_App\inc\sys_Gas_Battery.h)(0x559359EE)
+I (..\..\user_App\inc\sys_iAQ_sensor.h)(0x55559768)
+I (..\..\user_App\inc\sys_dust_sensor.h)(0x561B5117)
+F (..\..\user_App\src\sys_delay.c)(0x551E979A)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\sys_delay.o --omf_browse .\_build\sys_delay.crf --depend .\_build\sys_delay.d)
+I (..\..\user_App\inc\sys_main.h)(0x5625D0A1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_types.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_ranges.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_hci.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_advdata.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_l2cap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_err.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatt.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gattc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatts.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_conn_params.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common\ble_srv_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\softdevice_handler.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_sdm.h)(0x5434D7C6)
+I (..\..\user_App\inc\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_sdm.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ble_stack_handler_types.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ant_stack_handler_types.h)(0x54B702A2)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_timer.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_button.h)(0x00000000)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpio.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\ble_nus.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC\simple_uart.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util_platform.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\bsp.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\boards.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\pca10001.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_delay.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpiote.h)(0x54B702A0)
+I (..\..\user_App\inc\sys_uart.h)(0x55220AE8)
+I (..\..\user_App\inc\sys_i2c_driver.h)(0x5549B190)
+I (..\..\user_App\inc\sys_initialize.h)(0x553EF892)
+I (..\..\user_App\inc\sys_ble_process.h)(0x55939A76)
+I (..\..\user_App\inc\sys_delay.h)(0x551E9590)
+I (..\..\user_App\inc\sys_TempHumiPress.h)(0x557698C2)
+I (..\..\user_App\inc\sys_Gas_Battery.h)(0x559359EE)
+I (..\..\user_App\inc\sys_iAQ_sensor.h)(0x55559768)
+I (..\..\user_App\inc\sys_dust_sensor.h)(0x561B5117)
+F (..\..\user_App\src\sys_uart.c)(0x55096F42)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\sys_uart.o --omf_browse .\_build\sys_uart.crf --depend .\_build\sys_uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (..\..\user_App\inc\sys_main.h)(0x5625D0A1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_types.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_ranges.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_hci.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_advdata.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_l2cap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_err.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatt.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gattc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatts.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_conn_params.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common\ble_srv_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\softdevice_handler.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_sdm.h)(0x5434D7C6)
+I (..\..\user_App\inc\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_sdm.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ble_stack_handler_types.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ant_stack_handler_types.h)(0x54B702A2)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_timer.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_button.h)(0x00000000)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpio.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\ble_nus.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC\simple_uart.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util_platform.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\bsp.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\boards.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\pca10001.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_delay.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpiote.h)(0x54B702A0)
+I (..\..\user_App\inc\sys_uart.h)(0x55220AE8)
+I (..\..\user_App\inc\sys_i2c_driver.h)(0x5549B190)
+I (..\..\user_App\inc\sys_initialize.h)(0x553EF892)
+I (..\..\user_App\inc\sys_ble_process.h)(0x55939A76)
+I (..\..\user_App\inc\sys_delay.h)(0x551E9590)
+I (..\..\user_App\inc\sys_TempHumiPress.h)(0x557698C2)
+I (..\..\user_App\inc\sys_Gas_Battery.h)(0x559359EE)
+I (..\..\user_App\inc\sys_iAQ_sensor.h)(0x55559768)
+I (..\..\user_App\inc\sys_dust_sensor.h)(0x561B5117)
+F (..\..\user_App\src\sys_initialize.c)(0x5604C4E7)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\sys_initialize.o --omf_browse .\_build\sys_initialize.crf --depend .\_build\sys_initialize.d)
+I (..\..\user_App\inc\sys_main.h)(0x5625D0A1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_types.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_ranges.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_hci.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_advdata.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_l2cap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_err.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatt.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gattc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatts.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_conn_params.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common\ble_srv_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\softdevice_handler.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_sdm.h)(0x5434D7C6)
+I (..\..\user_App\inc\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_sdm.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ble_stack_handler_types.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ant_stack_handler_types.h)(0x54B702A2)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_timer.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_button.h)(0x00000000)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpio.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\ble_nus.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC\simple_uart.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util_platform.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\bsp.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\boards.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\pca10001.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_delay.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpiote.h)(0x54B702A0)
+I (..\..\user_App\inc\sys_uart.h)(0x55220AE8)
+I (..\..\user_App\inc\sys_i2c_driver.h)(0x5549B190)
+I (..\..\user_App\inc\sys_initialize.h)(0x553EF892)
+I (..\..\user_App\inc\sys_ble_process.h)(0x55939A76)
+I (..\..\user_App\inc\sys_delay.h)(0x551E9590)
+I (..\..\user_App\inc\sys_TempHumiPress.h)(0x557698C2)
+I (..\..\user_App\inc\sys_Gas_Battery.h)(0x559359EE)
+I (..\..\user_App\inc\sys_iAQ_sensor.h)(0x55559768)
+I (..\..\user_App\inc\sys_dust_sensor.h)(0x561B5117)
+F (..\..\user_App\src\sys_interrupt.c)(0x5625F9A7)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\sys_interrupt.o --omf_browse .\_build\sys_interrupt.crf --depend .\_build\sys_interrupt.d)
+I (..\..\user_App\inc\sys_main.h)(0x5625D0A1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_types.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_ranges.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_hci.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_advdata.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_l2cap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_err.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatt.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gattc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatts.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_conn_params.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common\ble_srv_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\softdevice_handler.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_sdm.h)(0x5434D7C6)
+I (..\..\user_App\inc\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_sdm.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ble_stack_handler_types.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ant_stack_handler_types.h)(0x54B702A2)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_timer.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_button.h)(0x00000000)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpio.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\ble_nus.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC\simple_uart.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util_platform.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\bsp.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\boards.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\pca10001.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_delay.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpiote.h)(0x54B702A0)
+I (..\..\user_App\inc\sys_uart.h)(0x55220AE8)
+I (..\..\user_App\inc\sys_i2c_driver.h)(0x5549B190)
+I (..\..\user_App\inc\sys_initialize.h)(0x553EF892)
+I (..\..\user_App\inc\sys_ble_process.h)(0x55939A76)
+I (..\..\user_App\inc\sys_delay.h)(0x551E9590)
+I (..\..\user_App\inc\sys_TempHumiPress.h)(0x557698C2)
+I (..\..\user_App\inc\sys_Gas_Battery.h)(0x559359EE)
+I (..\..\user_App\inc\sys_iAQ_sensor.h)(0x55559768)
+I (..\..\user_App\inc\sys_dust_sensor.h)(0x561B5117)
+F (..\..\user_App\src\sys_ble_process.c)(0x561B1FB9)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\sys_ble_process.o --omf_browse .\_build\sys_ble_process.crf --depend .\_build\sys_ble_process.d)
+I (..\..\user_App\inc\sys_main.h)(0x5625D0A1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_types.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_ranges.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_hci.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_advdata.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_l2cap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_err.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatt.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gattc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatts.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_conn_params.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common\ble_srv_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\softdevice_handler.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_sdm.h)(0x5434D7C6)
+I (..\..\user_App\inc\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_sdm.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ble_stack_handler_types.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ant_stack_handler_types.h)(0x54B702A2)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_timer.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_button.h)(0x00000000)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpio.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\ble_nus.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC\simple_uart.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util_platform.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\bsp.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\boards.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\pca10001.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_delay.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpiote.h)(0x54B702A0)
+I (..\..\user_App\inc\sys_uart.h)(0x55220AE8)
+I (..\..\user_App\inc\sys_i2c_driver.h)(0x5549B190)
+I (..\..\user_App\inc\sys_initialize.h)(0x553EF892)
+I (..\..\user_App\inc\sys_ble_process.h)(0x55939A76)
+I (..\..\user_App\inc\sys_delay.h)(0x551E9590)
+I (..\..\user_App\inc\sys_TempHumiPress.h)(0x557698C2)
+I (..\..\user_App\inc\sys_Gas_Battery.h)(0x559359EE)
+I (..\..\user_App\inc\sys_iAQ_sensor.h)(0x55559768)
+I (..\..\user_App\inc\sys_dust_sensor.h)(0x561B5117)
+F (..\..\user_App\src\sys_Gas_Battery.c)(0x5628680B)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\sys_gas_battery.o --omf_browse .\_build\sys_gas_battery.crf --depend .\_build\sys_gas_battery.d)
+I (..\..\user_App\inc\sys_main.h)(0x5625D0A1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_types.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_ranges.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_hci.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_advdata.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_l2cap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_err.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatt.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gattc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatts.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_conn_params.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common\ble_srv_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\softdevice_handler.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_sdm.h)(0x5434D7C6)
+I (..\..\user_App\inc\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_sdm.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ble_stack_handler_types.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ant_stack_handler_types.h)(0x54B702A2)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_timer.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_button.h)(0x00000000)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpio.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\ble_nus.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC\simple_uart.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util_platform.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\bsp.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\boards.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\pca10001.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_delay.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpiote.h)(0x54B702A0)
+I (..\..\user_App\inc\sys_uart.h)(0x55220AE8)
+I (..\..\user_App\inc\sys_i2c_driver.h)(0x5549B190)
+I (..\..\user_App\inc\sys_initialize.h)(0x553EF892)
+I (..\..\user_App\inc\sys_ble_process.h)(0x55939A76)
+I (..\..\user_App\inc\sys_delay.h)(0x551E9590)
+I (..\..\user_App\inc\sys_TempHumiPress.h)(0x557698C2)
+I (..\..\user_App\inc\sys_Gas_Battery.h)(0x559359EE)
+I (..\..\user_App\inc\sys_iAQ_sensor.h)(0x55559768)
+I (..\..\user_App\inc\sys_dust_sensor.h)(0x561B5117)
+F (..\..\user_App\src\sys_iAQ_sensor.c)(0x5614810C)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\sys_iaq_sensor.o --omf_browse .\_build\sys_iaq_sensor.crf --depend .\_build\sys_iaq_sensor.d)
+I (..\..\user_App\inc\sys_main.h)(0x5625D0A1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_types.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_ranges.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_hci.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_advdata.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_l2cap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_err.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatt.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gattc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatts.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_conn_params.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common\ble_srv_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\softdevice_handler.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_sdm.h)(0x5434D7C6)
+I (..\..\user_App\inc\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_sdm.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ble_stack_handler_types.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ant_stack_handler_types.h)(0x54B702A2)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_timer.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_button.h)(0x00000000)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpio.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\ble_nus.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC\simple_uart.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util_platform.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\bsp.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\boards.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\pca10001.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_delay.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpiote.h)(0x54B702A0)
+I (..\..\user_App\inc\sys_uart.h)(0x55220AE8)
+I (..\..\user_App\inc\sys_i2c_driver.h)(0x5549B190)
+I (..\..\user_App\inc\sys_initialize.h)(0x553EF892)
+I (..\..\user_App\inc\sys_ble_process.h)(0x55939A76)
+I (..\..\user_App\inc\sys_delay.h)(0x551E9590)
+I (..\..\user_App\inc\sys_TempHumiPress.h)(0x557698C2)
+I (..\..\user_App\inc\sys_Gas_Battery.h)(0x559359EE)
+I (..\..\user_App\inc\sys_iAQ_sensor.h)(0x55559768)
+I (..\..\user_App\inc\sys_dust_sensor.h)(0x561B5117)
+F (..\..\user_App\src\sys_dust_sensor.c)(0x561B7869)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\sys_dust_sensor.o --omf_browse .\_build\sys_dust_sensor.crf --depend .\_build\sys_dust_sensor.d)
+I (..\..\user_App\inc\sys_main.h)(0x5625D0A1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_types.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_ranges.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_hci.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_advdata.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_l2cap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_err.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatt.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gattc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatts.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_conn_params.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common\ble_srv_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\softdevice_handler.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_sdm.h)(0x5434D7C6)
+I (..\..\user_App\inc\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_sdm.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ble_stack_handler_types.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ant_stack_handler_types.h)(0x54B702A2)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_timer.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_button.h)(0x00000000)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpio.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\ble_nus.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC\simple_uart.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util_platform.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\bsp.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\boards.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\pca10001.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_delay.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpiote.h)(0x54B702A0)
+I (..\..\user_App\inc\sys_uart.h)(0x55220AE8)
+I (..\..\user_App\inc\sys_i2c_driver.h)(0x5549B190)
+I (..\..\user_App\inc\sys_initialize.h)(0x553EF892)
+I (..\..\user_App\inc\sys_ble_process.h)(0x55939A76)
+I (..\..\user_App\inc\sys_delay.h)(0x551E9590)
+I (..\..\user_App\inc\sys_TempHumiPress.h)(0x557698C2)
+I (..\..\user_App\inc\sys_Gas_Battery.h)(0x559359EE)
+I (..\..\user_App\inc\sys_iAQ_sensor.h)(0x55559768)
+I (..\..\user_App\inc\sys_dust_sensor.h)(0x561B5117)
+F (..\..\user_App\src\SYS_TempHumiPress.c)(0x55B75108)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\sys_temphumipress.o --omf_browse .\_build\sys_temphumipress.crf --depend .\_build\sys_temphumipress.d)
+I (..\..\user_App\inc\sys_main.h)(0x5625D0A1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_types.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_ranges.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_hci.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_advdata.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_l2cap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_err.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatt.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gattc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatts.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_conn_params.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common\ble_srv_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\softdevice_handler.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_sdm.h)(0x5434D7C6)
+I (..\..\user_App\inc\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_sdm.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ble_stack_handler_types.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ant_stack_handler_types.h)(0x54B702A2)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_timer.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_button.h)(0x00000000)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpio.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\ble_nus.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC\simple_uart.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util_platform.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\bsp.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\boards.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\pca10001.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_delay.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpiote.h)(0x54B702A0)
+I (..\..\user_App\inc\sys_uart.h)(0x55220AE8)
+I (..\..\user_App\inc\sys_i2c_driver.h)(0x5549B190)
+I (..\..\user_App\inc\sys_initialize.h)(0x553EF892)
+I (..\..\user_App\inc\sys_ble_process.h)(0x55939A76)
+I (..\..\user_App\inc\sys_delay.h)(0x551E9590)
+I (..\..\user_App\inc\sys_TempHumiPress.h)(0x557698C2)
+I (..\..\user_App\inc\sys_Gas_Battery.h)(0x559359EE)
+I (..\..\user_App\inc\sys_iAQ_sensor.h)(0x55559768)
+I (..\..\user_App\inc\sys_dust_sensor.h)(0x561B5117)
+F (..\..\user_App\inc\nrf51.h)(0x54B702A8)()
+F (..\..\user_App\inc\sys_ble_process.h)(0x55939A76)()
+F (..\..\user_App\inc\sys_i2c_driver.h)(0x5549B190)()
+F (..\..\user_App\inc\sys_initialize.h)(0x553EF892)()
+F (..\..\user_App\inc\sys_Main.h)(0x5625D0A1)()
+F (..\..\user_App\inc\sys_uart.h)(0x55220AE8)()
+F (..\..\user_App\inc\sys_delay.h)(0x551E9590)()
+F (..\..\user_App\inc\sys_iAQ_sensor.h)(0x55559768)()
+F (..\..\user_App\inc\sys_dust_sensor.h)(0x561B5117)()
+F (..\..\user_App\inc\sys_TempHumiPress.h)(0x557698C2)()
+F (..\..\user_App\inc\sys_Gas_Battery.h)(0x559359EE)()
+F (RTE\Board_Support\nRF51422_xxAC\bsp.c)(0x54B702A2)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\bsp.o --omf_browse .\_build\bsp.crf --depend .\_build\bsp.d)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\bsp.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\boards.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpio.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\pca10001.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_timer.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_button.h)(0x00000000)
+F (RTE\Device\nRF51422_xxAC\arm_startup_nrf51.s)(0x550A9518)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I..\..\Max30101-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers--pd "__UVISION_VERSION SETA 515" --pd "_RTE_ SETA 1" --pd "NRF51 SETA 1"--list .\_build\arm_startup_nrf51.lst --xref -o .\_build\arm_startup_nrf51.o --depend .\_build\arm_startup_nrf51.d)
+F (RTE\Device\nRF51422_xxAC\system_nrf51.c)(0x545308F8)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\system_nrf51.o --omf_browse .\_build\system_nrf51.crf --depend .\_build\system_nrf51.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+F (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common\ble_srv_common.c)(0x54B702A0)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\ble_srv_common.o --omf_browse .\_build\ble_srv_common.crf --depend .\_build\ble_srv_common.d)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common\ble_srv_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_types.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_ranges.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatt.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+F (RTE\nRF_BLE\nRF51422_xxAC\ble_advdata.c)(0x54B702A0)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\ble_advdata.o --omf_browse .\_build\ble_advdata.crf --depend .\_build\ble_advdata.d)
+I (RTE\nRF_BLE\nRF51422_xxAC\ble_advdata.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_ranges.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_types.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_l2cap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_err.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatt.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gattc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatts.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common\ble_srv_common.h)(0x54B702A0)
+F (RTE\nRF_BLE\nRF51422_xxAC\ble_advdata.h)(0x54B702A0)()
+F (RTE\nRF_BLE\nRF51422_xxAC\ble_conn_params.c)(0x55B7579C)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\ble_conn_params.o --omf_browse .\_build\ble_conn_params.crf --depend .\_build\ble_conn_params.d)
+I (RTE\nRF_BLE\nRF51422_xxAC\ble_conn_params.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_ranges.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_types.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_l2cap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_err.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatt.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gattc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatts.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common\ble_srv_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_hci.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_timer.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC\simple_uart.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\ble_nus.h)(0x00000000)
+I (..\..\user_App\inc\sys_main.h)(0x5625D0A1)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC\ble_advdata.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\softdevice_handler.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_sdm.h)(0x5434D7C6)
+I (..\..\user_App\inc\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_sdm.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ble_stack_handler_types.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ant_stack_handler_types.h)(0x54B702A2)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_button.h)(0x00000000)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpio.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util_platform.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\bsp.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\boards.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp\pca10001.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_delay.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpiote.h)(0x54B702A0)
+I (..\..\user_App\inc\sys_uart.h)(0x55220AE8)
+I (..\..\user_App\inc\sys_i2c_driver.h)(0x5549B190)
+I (..\..\user_App\inc\sys_initialize.h)(0x553EF892)
+I (..\..\user_App\inc\sys_ble_process.h)(0x55939A76)
+I (..\..\user_App\inc\sys_delay.h)(0x551E9590)
+I (..\..\user_App\inc\sys_TempHumiPress.h)(0x557698C2)
+I (..\..\user_App\inc\sys_Gas_Battery.h)(0x559359EE)
+I (..\..\user_App\inc\sys_iAQ_sensor.h)(0x55559768)
+I (..\..\user_App\inc\sys_dust_sensor.h)(0x561B5117)
+F (RTE\nRF_BLE\nRF51422_xxAC\ble_conn_params.h)(0x54B702A0)()
+F (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_delay.c)(0x54B702A0)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\nrf_delay.o --omf_browse .\_build\nrf_delay.crf --depend .\_build\nrf_delay.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_delay.h)(0x54B702A0)
+F (RTE\nRF_Drivers\nRF51422_xxAC\simple_uart.c)(0x54F6C82C)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\simple_uart.o --omf_browse .\_build\simple_uart.crf --depend .\_build\simple_uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (RTE\nRF_Drivers\nRF51422_xxAC\simple_uart.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_delay.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpio.h)(0x54B702A0)
+F (RTE\nRF_Drivers\nRF51422_xxAC\simple_uart.h)(0x54B702A0)()
+F (RTE\nRF_Libraries\nRF51422_xxAC\app_button.c)(0x54B702A0)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\app_button.o --omf_browse .\_build\app_button.crf --depend .\_build\app_button.d)
+I (RTE\nRF_Libraries\nRF51422_xxAC\app_button.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpio.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.h)(0x54B702A0)
+I (RTE\nRF_Libraries\nRF51422_xxAC\app_timer.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+F (RTE\nRF_Libraries\nRF51422_xxAC\app_button.h)(0x54B702A0)()
+F (RTE\nRF_Libraries\nRF51422_xxAC\app_error.c)(0x54B702A0)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\app_error.o --omf_browse .\_build\app_error.crf --depend .\_build\app_error.d)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+F (RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x54B702A0)()
+F (RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.c)(0x552D066C)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\app_gpiote.o --omf_browse .\_build\app_gpiote.crf --depend .\_build\app_gpiote.d)
+I (RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util_platform.h)(0x54B702A0)
+I (..\..\user_App\inc\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_gpio.h)(0x54B702A0)
+F (RTE\nRF_Libraries\nRF51422_xxAC\app_gpiote.h)(0x54B702A0)()
+F (RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.c)(0x54B702A0)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\app_scheduler.o --omf_browse .\_build\app_scheduler.crf --depend .\_build\app_scheduler.d)
+I (RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (..\..\user_App\inc\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_soc.h)(0x5434D7C6)
+I (RTE\nRF_Libraries\nRF51422_xxAC\nrf_assert.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util_platform.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_error.h)(0x54B702A0)
+F (RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x54B702A0)()
+F (RTE\nRF_Libraries\nRF51422_xxAC\app_timer.c)(0x54B702A0)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\app_timer.o --omf_browse .\_build\app_timer.crf --depend .\_build\app_timer.d)
+I (RTE\nRF_Libraries\nRF51422_xxAC\app_timer.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C237A8)
+I (RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C237A8)
+I (..\..\user_App\inc\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf_delay.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf.h)(0x54B702A6)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_deprecated.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util_platform.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_error.h)(0x54B702A0)
+F (RTE\nRF_Libraries\nRF51422_xxAC\app_timer.h)(0x54B702A0)()
+F (RTE\nRF_Libraries\nRF51422_xxAC\nrf_assert.c)(0x54B702A0)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\nrf_assert.o --omf_browse .\_build\nrf_assert.crf --depend .\_build\nrf_assert.d)
+I (RTE\nRF_Libraries\nRF51422_xxAC\nrf_assert.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+F (RTE\nRF_Libraries\nRF51422_xxAC\nrf_assert.h)(0x54B702A0)()
+F (RTE\nRF_SoftDevice\nRF51422_xxAC\softdevice_handler.c)(0x54B702A2)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\user_App\src -I..\..\user_App\inc -I..\..\Max30101 -IC:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal --c99-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_BLE\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Drivers\nRF51422_xxAC"-I "C:\Users\Air_RnD\Documents\hex-air\È¯°æ¼¾¼­ ¸ðµâ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\1.1.1\common-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\hal-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\1.2.1\simple_uart-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\7.2.0\bsp-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\button-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\gpiote-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\scheduler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\timer-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers-D__UVISION_VERSION="515" -D_RTE_ -DNRF51 -DNRF51 -DBLE_STACK_SUPPORT_REQD -DS110 -DSOFTDEVICE_PRESENT -DBOARD_PCA10001 -DBOARD_PCA10028-o .\_build\softdevice_handler.o --omf_browse .\_build\softdevice_handler.crf --depend .\_build\softdevice_handler.d)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\softdevice_handler.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\nordic_common.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_sdm.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_svc.h)(0x5434D7C6)
+I (..\..\user_App\inc\nrf51.h)(0x54B702A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm0.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55092DF4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E2F58)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C237A8)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\nrf51_bitfields.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_soc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\nrf_error_sdm.h)(0x5434D7C6)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x00000000)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_scheduler.h)(0x00000000)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\1.1.1\util\app_util.h)(0x54B702A0)
+I (C:\Keil_v5\ARM\Pack\NordicSemiconductor\nRF_Drivers\1.2.1\hal\compiler_abstraction.h)(0x54B702AA)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ble_stack_handler_types.h)(0x54B702A2)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_ranges.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_types.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_l2cap.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_err.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatt.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gattc.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\7.1.0-3\headers\ble_gatts.h)(0x5434D7C6)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.1\softdevice_handler\ant_stack_handler_types.h)(0x54B702A2)
+I (C:\Users\Air_RnD\Documents\hex-air\?˜ê²½?¼ì„œ ëª¨ë“ˆ\AIR_PROJECT2\Firmware\Project2_20150728\pca10028\arm5\RTE\nRF_Libraries\nRF51422_xxAC\nrf_assert.h)(0x00000000)

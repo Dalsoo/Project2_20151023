@@ -1,0 +1,15 @@
+---- m_leds_timer_id Matches (11 in 1 files) ----
+Bsp.c (pca10028\arm5\rte\board_support\nrf51422_xxac):static app_timer_id_t   m_leds_timer_id;
+Bsp.c (pca10028\arm5\rte\board_support\nrf51422_xxac):            err_code       = app_timer_start(m_leds_timer_id, BSP_MS_TO_TICK(next_delay), NULL);
+Bsp.c (pca10028\arm5\rte\board_support\nrf51422_xxac):            err_code       = app_timer_start(m_leds_timer_id, BSP_MS_TO_TICK(next_delay), NULL);
+Bsp.c (pca10028\arm5\rte\board_support\nrf51422_xxac):            err_code       = app_timer_start(m_leds_timer_id, BSP_MS_TO_TICK(next_delay), NULL);
+Bsp.c (pca10028\arm5\rte\board_support\nrf51422_xxac):            err_code       = app_timer_start(m_leds_timer_id, BSP_MS_TO_TICK(next_delay), NULL);
+Bsp.c (pca10028\arm5\rte\board_support\nrf51422_xxac):                app_timer_start(m_leds_timer_id, BSP_MS_TO_TICK(BONDING_INTERVAL), NULL);
+Bsp.c (pca10028\arm5\rte\board_support\nrf51422_xxac):            err_code = app_timer_start(m_leds_timer_id, BSP_MS_TO_TICK(SENT_OK_INTERVAL), NULL);
+Bsp.c (pca10028\arm5\rte\board_support\nrf51422_xxac):            err_code = app_timer_start(m_leds_timer_id, BSP_MS_TO_TICK(SEND_ERROR_INTERVAL), NULL);
+Bsp.c (pca10028\arm5\rte\board_support\nrf51422_xxac):            err_code = app_timer_start(m_leds_timer_id, BSP_MS_TO_TICK(RCV_OK_INTERVAL), NULL);
+Bsp.c (pca10028\arm5\rte\board_support\nrf51422_xxac):            err_code = app_timer_start(m_leds_timer_id, BSP_MS_TO_TICK(RCV_ERROR_INTERVAL), NULL);
+Bsp.c (pca10028\arm5\rte\board_support\nrf51422_xxac):            app_timer_create(&m_leds_timer_id, APP_TIMER_MODE_SINGLE_SHOT, leds_timer_handler);
+---- m_leds_timer_id Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+D:\01. KEIL_PROJECT\ble_peripheral_working\experimental_ble_app_uart\pca10028\arm5\_build\nrf51422_xxac_s110.build_log.htm : File could not be opened.

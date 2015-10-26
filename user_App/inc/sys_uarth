@@ -1,0 +1,8 @@
+
+#ifndef  __SYS_UART_H__
+#define __SYS_UART_H__
+
+void sys_printf(uint8_t *ucFmt,...);
+
+
+#endif
